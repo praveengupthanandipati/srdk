@@ -1,0 +1,148 @@
+@use "sass:map";
+@use "./variables" as v;
+
+@mixin siteMain {
+  -webkit-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;  
+  color: v.$text-primary;
+  overflow-x: hidden;
+}
+
+@mixin transition($property: all, $duration: 0.3s, $function: ease) {
+  transition: $property $duration $function;
+  -moz-transition: $property $duration $function;
+  -webkit-transition: $property $duration $function;
+  -ms-transition: $property $duration $function;
+  -o-transition: $property $duration $function;
+}
+
+@mixin translate($x: 0, $y: 0) {
+  transform: translate($x, $y);
+  -webkit-transform: translate($x, $y);
+  -moz-transform: translate($x, $y);
+  -ms-transform: translate($x, $y);
+  -o-transform: translate($x, $y);
+}
+
+@mixin rotate($deg: 0) {
+  transform: rotate(#{$deg}deg);
+  -webkit-transform: rotate(#{$deg}deg);
+  -moz-transform: rotate(#{$deg}deg);
+  -ms-transform: rotate(#{$deg}deg);
+  -o-transform: rotate(#{$deg}deg);
+}
+
+@mixin shadow($top, $left, $blur, $color, $opacity) {
+  box-shadow: $top $left $blur rgba($color, $opacity);
+}
+
+@mixin respond-between($min, $max) {
+  @include respond-below(768px) {
+    @content;
+  }
+}
+
+@mixin respond-above($min) {
+  @include respond-below(768px) {
+    @content;
+  }
+}
+
+@mixin respond-below($max) {
+ @include respond-below(768px) {
+    @content;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin section-padding {
+  padding: 80px 0;
+
+  @include respond-below(768px) {
+    padding: 50px 0;
+  }
+}
+
+@mixin heading-h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: v.$primary-dark;
+  margin-bottom: 15px;
+
+  @include respond-below(768px) {
+    font-size: 28px;
+  }
+}
+
+@mixin heading-h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: v.$primary-light;
+
+  @include respond-below(768px) {
+    font-size: 20px;
+  }
+}
+
+@mixin body-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: v.$text-primary;
+  line-height: 1.8;
+}
+
+@mixin btn-primary {
+  display: inline-block;
+  background-color: v.$accent;
+  color: v.$white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 12px 30px;
+  border: 2px solid v.$accent;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  @include transition;
+
+  &:hover {
+    background-color: v.$accent-hover;
+    border-color: v.$accent-hover;
+    color: v.$white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(v.$accent, 0.35);
+  }
+}
+
+@mixin btn-secondary {
+  display: inline-block;
+  background-color: transparent;
+  color: v.$accent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 12px 30px;
+  border: 2px solid v.$accent;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  @include transition;
+
+  &:hover {
+    background-color: rgba(v.$accent, 0.1);
+    color: v.$accent;
+    transform: translateY(-2px);
+  }
+}
