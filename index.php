@@ -130,7 +130,7 @@
                     CIN: U24299KA2021PTC151176
                 </div>
 
-                <a href="#contact" class="btn-about">Learn More →</a>
+                <a href="about.php" class="btn-about">Learn More →</a>
             </div>
 
             <div class="about-image" data-aos="fade-left" data-aos-delay="200">

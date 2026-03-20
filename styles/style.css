@@ -12,7 +12,7 @@ body {
     font-family: "Poppins", sans-serif;
     color: #333333;
     overflow-x: hidden;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 ul,
@@ -1557,4 +1557,75 @@ footer p{
     .experience-number {
         font-size: 28px;
     }
+}
+
+/* ── PRODUCT PAGES ── */
+.product-hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.text-teal { color: #10706e !important; }
+.bg-teal { background-color: #10706e !important; }
+.bg-teal-light { background-color: rgba(16, 112, 110, 0.1); }
+.text-orange { color: #f47a32 !important; }
+.bg-orange-light { background-color: rgba(244, 122, 50, 0.1); }
+.border-teal { border-color: #10706e !important; }
+.border-orange { border-color: #f47a32 !important; }
+
+.product-feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.photoinitiator-card {
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.photoinitiator-card:hover {
+    transform: translateX(10px);
+}
+
+.icon-box-sm {
+    width: 50px;
+    height: 50px;
+}
+
+.main-hero-gradient {
+    background: linear-gradient(135deg, rgba(16, 112, 110, 0.95) 0%, rgba(27, 59, 61, 0.9) 100%), url('../img/hero-bg01.jpg') center/cover;
+    padding: 140px 0 100px;
+    color: #fff;
+}
+
+.product-badge {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.overview-card-bg {
+    background: #f8fcfb;
+}
+
+.icon-circle-bg {
+    width: 50px;
+    height: 50px;
+}
+
+.cta-decor-circle {
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+}
+
+.bg-light-soft {
+    background: #f4f7f6;
 }

@@ -32,9 +32,10 @@
                 <h4 class="footer-heading">Company</h4>
                 <ul class="footer-links">
                     <li><a href="about.php" class="footer-link">About Us</a></li>
-                    <li><a href="about.php#story" class="footer-link">Our Story</a></li>
-                    <li><a href="about.php#infrastructure" class="footer-link">Infrastructure</a></li>
-                    <li><a href="about.php#careers" class="footer-link">Careers</a></li>
+                    <li><a href="faq.php" class="footer-link">FAQ's</a></li>                    
+                    <li><a href="quality.php" class="footer-link">Quality</a></li>
+                    <li><a href="careers.php" class="footer-link">Careers</a></li>
+                    <li><a href="contact.php" class="footer-link">Contact</a></li>
                 </ul>
             </div>
 
@@ -51,11 +52,12 @@
             <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
                 <h4 class="footer-heading">Products</h4>
                 <ul class="footer-links">
-                    <li><a href="#products" class="footer-link">PEG Diacrylates</a></li>
-                    <li><a href="#products" class="footer-link">PEG Dimethacrylates</a></li>
-                    <li><a href="#products" class="footer-link">Photoinitiators</a></li>
-                    <li><a href="#products" class="footer-link">PLGA</a></li>
-                    <li><a href="#products" class="footer-link">PEG-PLGA</a></li>
+                    <li><a href="pegdiacrylates.php" class="footer-link">PEG Diacrylates</a></li>
+                    <li><a href="pegdimethacrylates.php" class="footer-link">PEG Dimethacrylates</a></li>
+                    <li><a href="photoinitiators.php" class="footer-link">Photoinitiators</a></li>
+                    <li><a href="plga.php" class="footer-link">PLGA</a></li>
+                    <li><a href="pegplga.php" class="footer-link">PEG-PLGA</a></li>
+                    <li><a href="pegblockcopolymers.php" class="footer-link">PEG block copolymers</a></li>
                 </ul>
             </div>
 
@@ -100,9 +102,9 @@
                 </div>
                 <div class="col-md-5 text-md-end">
                     <div class="footer-bottom-links">
-                        <a href="contact.php">Privacy Policy</a>
-                        <a href="contact.php">Terms of Service</a>
-                        <a href="faq.php">Cookie Policy</a>
+                        <a href="privacy.php">Privacy Policy</a>
+                        <a href="terms.php">Terms of Service</a>
+                        <a href="cookies.php">Cookie Policy</a>
                     </div>
                 </div>
             </div>

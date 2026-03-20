@@ -63,27 +63,24 @@
                 <li class="nav-item has-dropdown">
                     <a href="#products" class="nav-link">Products <i class="bi bi-chevron-down"></i></a>
                     <ul class="sub-menu">
-                        <li><a href="#products" class="sub-menu-link">PEG Diacrylates</a></li>
-                        <li><a href="#products" class="sub-menu-link">PEG Dimethacrylates</a></li>
-                        <li><a href="#products" class="sub-menu-link">Photoinitiators</a></li>
-                        <li><a href="#products" class="sub-menu-link">PLGA</a></li>
-                        <li><a href="#products" class="sub-menu-link">PEG-PLGA</a></li>
-                        <li><a href="#products" class="sub-menu-link">PEG block copolymers</a></li>
+                        <li><a href="pegdiacrylates.php" class="sub-menu-link">PEG Diacrylates</a></li>
+                        <li><a href="pegdimethacrylates.php" class="sub-menu-link">PEG Dimethacrylates</a></li>
+                        <li><a href="photoinitiators.php" class="sub-menu-link">Photoinitiators</a></li>
+                        <li><a href="plga.php" class="sub-menu-link">PLGA</a></li>
+                        <li><a href="pegplga.php" class="sub-menu-link">PEG-PLGA</a></li>
+                        <li><a href="pegblockcopolymers.php" class="sub-menu-link">PEG block copolymers</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#quality" class="nav-link">Quality</a>
+                    <a href="quality.php" class="nav-link">Quality</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#faq" class="nav-link">FAQ's</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
+                    <a href="faq.php" class="nav-link">FAQ's</a>
+                </li>               
             </ul>
 
             <div class="header-cta">
-                <a href="#contact" class="header-contact-btn">
+                <a href="contact.php" class="header-contact-btn">
                     <span>Contact Us</span>
                 </a>
             </div>
