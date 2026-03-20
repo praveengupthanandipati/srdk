@@ -149,16 +149,4 @@
     </div>
 </section>
 
-<!-- Map Section -->
-<section class="map-section py-0" data-aos="fade-up">
-    <div class="container-fluid p-0">
-        <div class="ratio ratio-21x9 shadow-lg" style="min-height: 450px;">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.128761271112!2d77.58554867490215!3d13.090680387235941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae190d6e64ec4b%3A0xc005166297599026!2sYelahanka%20New%20Town%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1710920000000!5m2!1sen!2sin"
-                style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </div>
-</section>
-
 <?php include 'includes/footer.php'; ?>
