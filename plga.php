@@ -29,9 +29,9 @@
             <div class="col-lg-6" data-aos="fade-right">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">Biodegradable Excellence</h2>
-                <p class="section-text lead">Poly(lactic-co-glycolic acid) (PLGA) is a synthetic, biocompatible, and
+                <p>Poly(lactic-co-glycolic acid) (PLGA) is a synthetic, biocompatible, and
                     biodegradable copolymer approved by FDA for drug delivery.</p>
-                <p class="section-text">Our comprehensive portfolio offers tailored degradation rates, molecular
+                <p>Our comprehensive portfolio offers tailored degradation rates, molecular
                     weights, and end-group chemistry for diverse biomedical applications, ranging from nanoparticle drug
                     carriers to structural medical implants.</p>
             </div>
@@ -113,7 +113,7 @@
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-lg-12">
                 <div class="table-responsive shadow-sm rounded-4 border overflow-hidden">
-                    <table class="table table-hover align-middle mb-0 text-center small">
+                    <table class="table table-bordered align-middle mb-0 text-center small">
                         <thead class="bg-teal text-white">
                             <tr>
                                 <th class="py-3">Code</th>

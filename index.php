@@ -17,7 +17,7 @@
                             <h1 class="hero-title">Innovating Polymers For Better Therapies</h1>
                             <p class="hero-description">Engineering next-generation polymer platforms for safer, more
                                 effective patient-centric therapies</p>
-                            <div class="hero-buttons">
+                            <div class="hero-buttons d-none">
                                 <a href="#products" class="btn-hero-primary">Explore Products</a>
                             </div>
                         </div>
@@ -38,7 +38,7 @@
                                 <span class="hero-tag">PEG Diacrylates</span>
                                 <span class="hero-tag">PEG Dimethacrylates</span>
                             </div>
-                            <div class="hero-buttons">
+                            <div class="hero-buttons d-none">
                                 <a href="#products" class="btn-hero-primary">Discover Our Expertise</a>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                             <h1 class="hero-title">Pharmaceutical-Grade Specialty Polymers</h1>
                             <p class="hero-description">FDA-relevant materials for biomedical applications and
                                 controlled release systems</p>
-                            <div class="hero-buttons">
+                            <div class="hero-buttons d-none">
                                 <a href="#products" class="btn-hero-primary">View Products</a>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                             <h1 class="hero-title">Advanced Polymers For 3D Bioprinting & Regenerative Medicine</h1>
                             <p class="hero-description">PEG Diacrylates • PEG Dimethacrylates • Photoinitiators for
                                 Hydrogels</p>
-                            <div class="hero-buttons">
+                            <div class="hero-buttons d-none">
                                 <a href="about.php" class="btn-hero-primary">Learn More</a>
                             </div>
                         </div>
@@ -172,11 +172,13 @@
                     <li>Tissue engineering</li>
                 </ul>
                 <div class="product-arrow">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg>
+                    <a href="pegdiacrylates.php" class="product-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <!-- Product 2 -->
@@ -199,11 +201,13 @@
                     <li>Controlled release systems</li>
                 </ul>
                 <div class="product-arrow">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg>
+                    <a href="pegdimethacrylates.php" class="product-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <!-- Product 3 -->
@@ -222,11 +226,13 @@
                     <li>PEGDA/PEGDMA optimized</li>
                 </ul>
                 <div class="product-arrow">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg>
+                    <a href="photoinitiators.php" class="product-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <!-- Product 4 -->
@@ -246,11 +252,13 @@
                     <li>Implant applications</li>
                 </ul>
                 <div class="product-arrow">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg>
+                    <a href="plga.php" class="product-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <!-- Product 5 -->
@@ -273,11 +281,13 @@
                     <li>Enhanced drug delivery</li>
                 </ul>
                 <div class="product-arrow">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg>
+                    <a href="pegplga.php" class="product-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <!-- Product 6 -->
@@ -300,11 +310,13 @@
                     <li>Controlled release profiles</li>
                 </ul>
                 <div class="product-arrow">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg>
+                    <a href="pegblockcopolymers.php" class="product-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
@@ -379,7 +391,7 @@
         </div>
 
         <div class="quality-cta text-center mt-4" data-aos="fade-up">
-            <a href="#contact" class="btn-quality">Learn About Our Quality Standards →</a>
+            <a href="quality.php" class="btn-quality">Learn About Our Quality Standards →</a>
         </div>
     </div>
 </section>
@@ -408,13 +420,7 @@
                     <li><span class="bullet"></span>PLGA</li>
                     <li><span class="bullet"></span>PEG-PLGA</li>
                     <li><span class="bullet"></span>PEG Block Copolymers</li>
-                </ul>
-                <a href="#contact" class="service-link">Learn More <svg viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16"
-                        height="16">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg></a>
+                </ul>              
             </div>
             <!-- Service 2 -->
             <div class="service-card" data-aos="fade-up" data-aos-delay="100">
@@ -431,13 +437,7 @@
                     <li><span class="bullet"></span>PEGDA</li>
                     <li><span class="bullet"></span>PEGDMA</li>
                     <li><span class="bullet"></span>Photoinitiators</li>
-                </ul>
-                <a href="#contact" class="service-link">Learn More <svg viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16"
-                        height="16">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg></a>
+                </ul>               
             </div>
             <!-- Service 3 -->
             <div class="service-card" data-aos="fade-up" data-aos-delay="200">
@@ -452,13 +452,7 @@
                     <li><span class="bullet"></span>Stimuli-responsive</li>
                     <li><span class="bullet"></span>Mucoadhesive</li>
                     <li><span class="bullet"></span>Surface functionalized</li>
-                </ul>
-                <a href="#contact" class="service-link">Learn More <svg viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16"
-                        height="16">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg></a>
+                </ul>               
             </div>
             <!-- Service 4 -->
             <div class="service-card" data-aos="fade-up" data-aos-delay="300">
@@ -477,13 +471,7 @@
                     <li><span class="bullet"></span>Implants & tissue models</li>
                     <li><span class="bullet"></span>Regenerative medicine</li>
                     <li><span class="bullet"></span>CDMO partnerships</li>
-                </ul>
-                <a href="#contact" class="service-link">Partner With Us <svg viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16"
-                        height="16">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg></a>
+                </ul>               
             </div>
         </div>
     </div>
@@ -493,14 +481,18 @@
 <!-- ══════ POLYMERIZATION EXPERTISE SECTION ══════ -->
 <section class="polymer-expertise-section" id="polymer-expertise">
     <div class="container">
-        <div class="section-header" data-aos="fade-up">
-            <span class="section-label">Advanced Techniques</span>
-            <h2 class="section-title">Our Polymerization Expertise</h2>
-            <p class="section-subtitle">
-                SRDK Biochemicals offers comprehensive expertise in advanced polymerization techniques, specializing in
-                controlled synthesis of biodegradable and functional polymers for drug delivery and biomedical
-                applications.
-            </p>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                  <div data-aos="fade-up" class="text-center">
+                    <span class="section-label">Advanced Techniques</span>
+                    <h2 class="section-title">Our Polymerization Expertise</h2>
+                    <p class="section-subtitle">
+                        SRDK Biochemicals offers comprehensive expertise in advanced polymerization techniques, specializing in
+                        controlled synthesis of biodegradable and functional polymers for drug delivery and biomedical
+                        applications.
+                    </p>
+                </div>
+            </div>
         </div>
 
         <div class="expertise-swiper-container" data-aos="fade-up" data-aos-delay="200">

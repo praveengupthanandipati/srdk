@@ -24,14 +24,14 @@
             <div class="col-lg-6" data-aos="fade-right">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">Precision Photocrosslinking</h2>
-                <p class="section-text lead">Photoinitiators enable rapid, spatially controlled polymerization of hydrogels for drug delivery, 3D bioprinting, and tissue engineering.</p>
-                <p class="section-text">Our portfolio includes water-soluble, biocompatible initiators activated by UV (365 nm) or visible light (405 nm) ensuring high cell viability and structural fidelity in complex biomedical constructs.</p>
+                <p>Photoinitiators enable rapid, spatially controlled polymerization of hydrogels for drug delivery, 3D bioprinting, and tissue engineering.</p>
+                <p>Our portfolio includes water-soluble, biocompatible initiators activated by UV (365 nm) or visible light (405 nm) ensuring high cell viability and structural fidelity in complex biomedical constructs.</p>
             </div>
             <div class="col-lg-6" data-aos="fade-left">
                 <div class="p-4 rounded-4 shadow-sm border-start border-5 border-teal overview-card-bg">
                     <h4 class="mb-3 text-teal">Photoinitiator Portfolio</h4>
                     <div class="table-responsive">
-                        <table class="table table-hover align-middle mb-0 small">
+                        <table class="table table-bordered align-middle mb-0 small">
                             <thead class="table-light">
                                 <tr>
                                     <th>Product</th>
@@ -139,7 +139,7 @@
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-lg-12">
                 <div class="table-responsive shadow-sm rounded-4 border overflow-hidden">
-                    <table class="table table-hover align-middle mb-0 text-center small">
+                    <table class="table table-bordered align-middle mb-0 text-center small">
                         <thead class="bg-teal text-white">
                             <tr>
                                 <th class="text-start ps-4 py-3">Application</th>
@@ -152,42 +152,42 @@
                         <tbody>
                             <tr>
                                 <td class="text-start ps-4 fw-bold">3D Bioprinting (cell-laden)</td>
-                                <td><span class="badge bg-soft-teal text-teal">LAP</span></td>
+                                <td><span class="bg-soft-teal text-teal">LAP</span></td>
                                 <td>0.1-0.3 wt%</td>
                                 <td>405 nm LED</td>
                                 <td class="text-start pe-4">Highest cell viability, fast gelation</td>
                             </tr>
                             <tr>
                                 <td class="text-start ps-4 fw-bold">Cell encapsulation</td>
-                                <td><span class="badge bg-soft-teal text-teal">LAP</span> or <span class="badge bg-soft-orange text-orange">Irgacure 2959</span></td>
+                                <td><span class="bg-soft-teal text-teal">LAP</span> or <span class="bg-soft-orange text-orange">Irgacure 2959</span></td>
                                 <td>0.05-0.1 wt%</td>
                                 <td>405 or 365 nm</td>
                                 <td class="text-start pe-4">Low toxicity, FDA-studied</td>
                             </tr>
                             <tr>
                                 <td class="text-start ps-4 fw-bold">Acellular hydrogels</td>
-                                <td><span class="badge bg-soft-teal text-teal">TPO</span> or <span class="badge bg-soft-orange text-orange">Irgacure 651</span></td>
+                                <td><span class="bg-soft-teal text-teal">TPO</span> or <span class="bg-soft-orange text-orange">Irgacure 651</span></td>
                                 <td>0.1-0.5 wt%</td>
                                 <td>365 nm UV</td>
                                 <td class="text-start pe-4">High efficiency, cost-effective</td>
                             </tr>
                             <tr>
                                 <td class="text-start ps-4 fw-bold">Thick constructs (>5 mm)</td>
-                                <td><span class="badge bg-soft-teal text-teal">Irgacure 819</span> or <span class="badge bg-soft-teal text-teal">TPO</span></td>
+                                <td><span class="bg-soft-teal text-teal">Irgacure 819</span> or <span class="bg-soft-teal text-teal">TPO</span></td>
                                 <td>0.2-0.5 wt%</td>
                                 <td>405 nm</td>
                                 <td class="text-start pe-4">Long-wavelength penetration</td>
                             </tr>
                             <tr>
                                 <td class="text-start ps-4 fw-bold">Visible light (green/blue)</td>
-                                <td><span class="badge bg-soft-orange text-orange">Eosin Y + TEA</span></td>
+                                <td><span class="bg-soft-orange text-orange">Eosin Y + TEA</span></td>
                                 <td>0.01-0.1 mM</td>
                                 <td>514 nm</td>
                                 <td class="text-start pe-4">Deep tissue penetration</td>
                             </tr>
                             <tr>
                                 <td class="text-start ps-4 fw-bold">Drug delivery depots</td>
-                                <td><span class="badge bg-soft-teal text-teal">LAP</span> or <span class="badge bg-soft-orange text-orange">Irgacure 2959</span></td>
+                                <td><span class="bg-soft-teal text-teal">LAP</span> or <span class="bg-soft-orange text-orange">Irgacure 2959</span></td>
                                 <td>0.05-0.2 wt%</td>
                                 <td>365 or 405 nm</td>
                                 <td class="text-start pe-4">Biocompatible residues</td>
@@ -212,7 +212,7 @@
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-lg-10">
                 <div class="table-responsive shadow-sm rounded-4 border overflow-hidden bg-white">
-                    <table class="table table-hover align-middle mb-0 text-center">
+                    <table class="table table-bordered align-middle mb-0 text-center">
                         <thead class="bg-orange text-white">
                             <tr>
                                 <th class="text-start ps-4">Property</th>
@@ -360,7 +360,7 @@
         <h2 class="display-6 fw-bold mb-3" data-aos="fade-up">Ready to Innovate?</h2>
         <p class="text-white opacity-75 lg-px-5" data-aos="fade-up" data-aos-delay="100">Contact our technical team for photoinitiator selection, custom concentrations, and application support.</p>
         <div data-aos="zoom-in" data-aos-delay="200" class="mt-4">
-            <a href="#contact" class="btn-quality">Request Quote</a>
+            <a href="contact.php" class="btn-quality">Request Quote</a>
         </div>
     </div>
     <div class="cta-decor-circle"></div>

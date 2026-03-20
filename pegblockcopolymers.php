@@ -24,8 +24,8 @@
             <div class="col-lg-6" data-aos="fade-right">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">Versatile Amphiphilic Systems</h2>
-                <p class="section-text lead">Our PEG-based diblock and triblock copolymers combine hydrophilic polyethylene glycol (PEG) with biodegradable hydrophobic blocks.</p>
-                <p class="section-text">These advanced materials enable spontaneous self-assembly into micelles, thermosensitive hydrogels, and sustained-release drug delivery systems. By selecting different hydrophobic blocks like PCL, PLA, or PDLLA, we offer tailored degradation rates and mechanical properties for diverse biomedical applications.</p>
+                <p>Our PEG-based diblock and triblock copolymers combine hydrophilic polyethylene glycol (PEG) with biodegradable hydrophobic blocks.</p>
+                <p>These advanced materials enable spontaneous self-assembly into micelles, thermosensitive hydrogels, and sustained-release drug delivery systems. By selecting different hydrophobic blocks like PCL, PLA, or PDLLA, we offer tailored degradation rates and mechanical properties for diverse biomedical applications.</p>
             </div>
             <div class="col-lg-6" data-aos="fade-left">
                 <div class="p-4 rounded-4 shadow-sm border-start border-5 border-teal overview-card-bg">
@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="table-responsive shadow-sm rounded-4 border overflow-hidden bg-white" data-aos="fade-up">
-            <table class="table table-hover align-middle mb-0 text-center small">
+            <table class="table table-bordered align-middle mb-0">
                 <thead class="bg-teal text-white">
                     <tr>
                         <th class="py-3">Copolymer Type</th>
@@ -172,7 +172,7 @@
                 <div class="overline">Architecture Matters</div>
                 <h3 class="mb-4">Diblock vs Triblock Architecture</h3>
                 <div class="table-responsive shadow-sm rounded-4 border overflow-hidden bg-white">
-                    <table class="table table-sm table-hover align-middle small mb-0">
+                    <table class="table table-bordered align-middle mb-0">
                         <thead class="bg-dark text-white">
                             <tr>
                                 <th class="ps-3 py-2">Property</th>
@@ -276,7 +276,7 @@
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-lg-10">
                 <div class="table-responsive shadow-sm rounded-4 border overflow-hidden bg-white">
-                    <table class="table table-bordered align-middle mb-0 small">
+                    <table class="table table-bordered align-middle mb-0">
                         <thead class="bg-dark text-white text-center">
                             <tr>
                                 <th class="py-3">Parameter</th>
@@ -364,7 +364,7 @@
         <h2 class="display-6 fw-bold mb-3" data-aos="fade-up">Ready to Innovate?</h2>
         <p class="text-white opacity-75 lg-px-5" data-aos="fade-up" data-aos-delay="100">Contact our technical team for custom block ratios, functionalization, and application support.</p>
         <div data-aos="zoom-in" data-aos-delay="200" class="mt-4">
-            <a href="#contact" class="btn-quality">Request Quote</a>
+            <a href="contact.php" class="btn-quality">Request Quote</a>
         </div>
     </div>
     <div class="cta-decor-circle"></div>

@@ -29,10 +29,10 @@
             <div class="col-lg-6" data-aos="fade-right">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">Stable Polymeric Crosslinker</h2>
-                <p class="section-text lead">Poly(ethylene glycol) dimethacrylate (PEGDMA) is a biocompatible macromer
+                <p>Poly(ethylene glycol) dimethacrylate (PEGDMA) is a biocompatible macromer
                     with methacrylate end-groups, offering superior network stability, controlled polymerization, and
                     enhanced mechanical properties for demanding biomedical applications.</p>
-                <p class="section-text">Unlike acrylates, the methacrylate groups in PEGDMA provide slower, more
+                <p>Unlike acrylates, the methacrylate groups in PEGDMA provide slower, more
                     controlled polymerization kinetics, making them ideal for thicker constructs and applications
                     requiring high structural integrity.</p>
             </div>
@@ -224,8 +224,8 @@
                         <tbody>
                             <tr>
                                 <td class="text-start ps-4 fw-bold">Polymerization Rate</td>
-                                <td><span class="badge bg-soft-teal text-teal px-3">Slower (controlled)</span></td>
-                                <td><span class="badge bg-soft-orange text-orange px-3">Faster (rapid)</span></td>
+                                <td><span class="bg-soft-teal text-teal px-3">Slower (controlled)</span></td>
+                                <td><span class="bg-soft-orange text-orange px-3">Faster (rapid)</span></td>
                             </tr>
                             <tr>
                                 <td class="text-start ps-4 fw-bold">Crosslink Density</td>
@@ -336,7 +336,7 @@
         <p class="text-white opacity-75 lg-px-5" data-aos="fade-up" data-aos-delay="100">Contact our technical team for
             custom formulations, bulk orders, and application support.</p>
         <div data-aos="zoom-in" data-aos-delay="200" class="mt-4">
-            <a href="#contact" class="btn-quality">Request Quote</a>
+           <a href="contact.php" class="btn-quality">Request Quote</a>
         </div>
     </div>
     <div class="cta-decor-circle"></div>

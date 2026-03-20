@@ -29,17 +29,17 @@
             <div class="col-lg-6" data-aos="fade-right">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">Biocompatible Polymeric Crosslinker</h2>
-                <p class="section-text lead">Poly(ethylene glycol) diacrylate (PEGDA) is a biocompatible, water-soluble
+                <p>Poly(ethylene glycol) diacrylate (PEGDA) is a biocompatible, water-soluble
                     macromer featuring terminal acrylate groups for rapid UV/visible light photopolymerization into
                     versatile hydrogel networks.</p>
-                <p class="section-text">SRDK's PEGDA is synthesized with high precision to ensure consistent performance
+                <p>SRDK's PEGDA is synthesized with high precision to ensure consistent performance
                     across various biomedical applications, from controlled drug release to scaffold engineering.</p>
             </div>
             <div class="col-lg-6" data-aos="fade-left">
                 <div class="p-4 rounded-4 shadow-sm border-start border-5 border-teal overview-card-bg">
                     <h4 class="mb-3 text-teal">Available Molecular Weights</h4>
                     <div class="table-responsive">
-                        <table class="table table-hover align-middle mb-0">
+                        <table class="table table-bordered align-middle mb-0">
                             <thead class="table-light">
                                 <tr>
                                     <th>Code</th>
@@ -277,7 +277,7 @@
         <p class="text-white" data-aos="fade-up" data-aos-delay="100">Contact our technical team for custom
             formulations, bulk orders, and application support.</p>
         <div data-aos="zoom-in" data-aos-delay="200">
-            <a href="#contact" class="btn-quality">Request Quote</a>
+            <a href="contact.php" class="btn-quality">Request Quote</a>
         </div>
     </div>
     <div class="cta-decor-circle"></div>

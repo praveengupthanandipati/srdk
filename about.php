@@ -33,7 +33,7 @@
             <div class="col-lg-6" data-aos="fade-left">
                 <div class="ps-lg-5">
                     <div class="overline">Who We Are</div>
-                    <h2 class="mb-4 section-subtitle">Advancing Healthcare Through <span
+                    <h2 class="mb-4 overview-title">Advancing Healthcare Through <span
                             style="color: #10706e;">Reliable Quality</span></h2>
                     <p class="mb-4 section-text">The company focuses on bioabsorbable and functional polymers that help
                         pharmaceutical, MedTech, and research partners translate ideas into clinically relevant

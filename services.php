@@ -142,10 +142,10 @@
 <section class="py-5 bg-teal text-white text-center position-relative overflow-hidden">
     <div class="container py-5 relative-z" data-aos="zoom-in">
         <h2 class="display-5 fw-bold mb-4">Ready to Innovate Together?</h2>
-        <p class="lead mb-5 opacity-75">Partner with SRDK to develop the custom polymer architectures your breakthrough
+        <p class="lead mb-5 text-white">Partner with SRDK to develop the custom polymer architectures your breakthrough
             therapy demands.</p>
         <div class="d-flex flex-wrap justify-content-center gap-4">
-            <a href="contact.php" class="btn btn-quality-orange px-5 py-3 rounded-pill fs-5 shadow-lg">Start Your
+            <a href="contact.php" class="btn btn-outline-light px-5 py-3 rounded-pill fs-5">Start Your
                 Inquiry</a>
             <a href="mailto:info@srdkbiochem.com" class="btn btn-outline-light px-5 py-3 rounded-pill fs-5">Email
                 Technical Team</a>

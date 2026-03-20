@@ -839,11 +839,21 @@ img {
     justify-content: center;
     color: #10706E;
     margin-top: 20px;
+    transition: all 0.4s ease;
+}
+
+.product-card:hover .product-arrow {
+    background-color: #F47A32;
+    border-color: #F47A32;
+    color: #FFFFFF;
+    transform: translateX(10px);
 }
 
 .product-arrow svg {
     width: 16px;
     height: 16px;
+    stroke: currentColor;
+    fill: none;
 }
 
 /* ── QUALITY SECTION ── */
@@ -1437,9 +1447,9 @@ footer p{
 }
 
 .section-subtitle {
-    font-size: clamp(13px, 1.5vw, 18px);    
+    font-size: clamp(18px, 1.8vw, 24px);    
     color: #1b3b3d;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 .section-text {
@@ -1668,4 +1678,17 @@ footer p{
     background: #10706E;
     transform: translateY(-5px);
     color: #fff;
+}
+
+.product-link{
+    display: block;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+}
+
+.table tr td{
+    font-size:15px;
 }

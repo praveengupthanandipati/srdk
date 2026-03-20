@@ -15,6 +15,10 @@ $product_pages = ['pegdiacrylates.php', 'pegdimethacrylates.php', 'photoinitiato
     <meta name="author" content="SRDK Biochemicals Pvt Ltd">
     <title>SRDK Biochemicals | Innovating Polymers for Better Therapies</title>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,22 +76,27 @@ $product_pages = ['pegdiacrylates.php', 'pegdimethacrylates.php', 'photoinitiato
                             class="nav-link <?php echo (in_array($current_page, $product_pages)) ? 'active' : ''; ?>">Products
                             <i class="bi bi-chevron-down"></i></a>
                         <ul class="sub-menu">
-                            <li class="<?php echo ($current_page == 'pegdiacrylates.php') ? 'active' : ''; ?>"><a href="pegdiacrylates.php"
+                            <li class="<?php echo ($current_page == 'pegdiacrylates.php') ? 'active' : ''; ?>"><a
+                                    href="pegdiacrylates.php"
                                     class="sub-menu-link <?php echo ($current_page == 'pegdiacrylates.php') ? 'active' : ''; ?>">PEG
                                     Diacrylates</a></li>
-                            <li class="<?php echo ($current_page == 'pegdimethacrylates.php') ? 'active' : ''; ?>"><a href="pegdimethacrylates.php"
+                            <li class="<?php echo ($current_page == 'pegdimethacrylates.php') ? 'active' : ''; ?>"><a
+                                    href="pegdimethacrylates.php"
                                     class="sub-menu-link <?php echo ($current_page == 'pegdimethacrylates.php') ? 'active' : ''; ?>">PEG
                                     Dimethacrylates</a></li>
-                            <li class="<?php echo ($current_page == 'photoinitiators.php') ? 'active' : ''; ?>"><a href="photoinitiators.php"
+                            <li class="<?php echo ($current_page == 'photoinitiators.php') ? 'active' : ''; ?>"><a
+                                    href="photoinitiators.php"
                                     class="sub-menu-link <?php echo ($current_page == 'photoinitiators.php') ? 'active' : ''; ?>">Photoinitiators</a>
                             </li>
                             <li class="<?php echo ($current_page == 'plga.php') ? 'active' : ''; ?>"><a href="plga.php"
                                     class="sub-menu-link <?php echo ($current_page == 'plga.php') ? 'active' : ''; ?>">PLGA</a>
                             </li>
-                            <li class="<?php echo ($current_page == 'pegplga.php') ? 'active' : ''; ?>"><a href="pegplga.php"
+                            <li class="<?php echo ($current_page == 'pegplga.php') ? 'active' : ''; ?>"><a
+                                    href="pegplga.php"
                                     class="sub-menu-link <?php echo ($current_page == 'pegplga.php') ? 'active' : ''; ?>">PEG-PLGA</a>
                             </li>
-                            <li class="<?php echo ($current_page == 'pegblockcopolymers.php') ? 'active' : ''; ?>"><a href="pegblockcopolymers.php"
+                            <li class="<?php echo ($current_page == 'pegblockcopolymers.php') ? 'active' : ''; ?>"><a
+                                    href="pegblockcopolymers.php"
                                     class="sub-menu-link <?php echo ($current_page == 'pegblockcopolymers.php') ? 'active' : ''; ?>">PEG
                                     block copolymers</a></li>
                         </ul>

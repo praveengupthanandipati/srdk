@@ -29,9 +29,9 @@
             <div class="col-lg-6" data-aos="fade-right">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">The Best of Both Worlds</h2>
-                <p class="section-text lead">PEG-PLGA block copolymers combine hydrophilic polyethylene glycol (PEG)
+                <p>PEG-PLGA block copolymers combine hydrophilic polyethylene glycol (PEG)
                     with biodegradable PLGA, creating amphiphilic systems ideal for micellar drug delivery.</p>
-                <p class="section-text">Our portfolio features FDA-relevant materials designed for spontaneous
+                <p>Our portfolio features FDA-relevant materials designed for spontaneous
                     self-assembly into nanoparticles, micelles, and thermosensitive hydrogels. These polymers offer
                     precisely tunable degradation and stealth properties for systemic and localized delivery.</p>
             </div>
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="table-responsive shadow-sm rounded-4 border overflow-hidden bg-white" data-aos="fade-up">
-            <table class="table table-hover align-middle mb-0 text-center small">
+            <table class="table table-bordered align-middle mb-0 text-center small">
                 <thead class="bg-teal text-white">
                     <tr>
                         <th class="py-3">Architecture</th>
@@ -160,7 +160,7 @@
             </div>
         </div>
         <div class="table-responsive shadow-sm rounded-4 border overflow-hidden bg-white" data-aos="fade-up">
-            <table class="table table-hover align-middle mb-0 text-center small">
+            <table class="table table-bordered align-middle mb-0 text-center small">
                 <thead class="bg-dark text-white">
                     <tr>
                         <th class="py-3">Architecture</th>
@@ -251,7 +251,7 @@
                 <div class="p-4 bg-light-soft rounded-4 border-start border-5 border-teal">
                     <h5 class="fw-bold mb-4">Diblock vs Triblock Comparison</h5>
                     <div class="table-responsive">
-                        <table class="table table-sm table-borderless align-middle small mb-0">
+                        <table class="table table-bordered align-middle small mb-0">
                             <thead>
                                 <tr class="border-bottom">
                                     <th>Property</th>
@@ -341,7 +341,7 @@
             </div>
         </div>
         <div class="table-responsive shadow-sm rounded-4 border overflow-hidden" data-aos="fade-up">
-            <table class="table table-hover align-middle mb-0 text-center small">
+            <table class="table table-bordered align-middle mb-0">
                 <thead class="bg-teal text-white">
                     <tr>
                         <th class="py-3">Formulation Type</th>
@@ -389,7 +389,7 @@
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-lg-10">
                 <div class="table-responsive shadow-sm rounded-4 border overflow-hidden bg-white">
-                    <table class="table table-bordered align-middle mb-0 small">
+                    <table class="table table-bordered align-middle mb-0">
                         <thead class="bg-dark text-white text-center">
                             <tr>
                                 <th class="py-3">Parameter</th>
@@ -481,7 +481,7 @@
         <p class="text-white opacity-75 lg-px-5" data-aos="fade-up" data-aos-delay="100">Contact our technical team for
             custom block ratios, functionalization, and application support.</p>
         <div data-aos="zoom-in" data-aos-delay="200" class="mt-4">
-            <a href="#contact" class="btn-quality">Request Quote</a>
+           <a href="contact.php" class="btn-quality">Request Quote</a>
         </div>
     </div>
     <div class="cta-decor-circle"></div>
