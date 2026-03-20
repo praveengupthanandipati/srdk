@@ -131,7 +131,8 @@
                     </div>
                     <i class="bi bi-geo-alt-fill text-teal fs-1 mb-3 d-block"></i>
                     <h4 class="fw-bold">Work at Bengaluru</h4>
-                    <p class="fw-light mb-4 text-white">Be part of the dynamic life sciences hub in India’s innovation capital.
+                    <p class="fw-light mb-4 text-white
+                    ">Be part of the dynamic life sciences hub in India’s innovation capital.
                     </p>
                     <div class="d-inline-block px-4 py-2 border border-white border-opacity-25 rounded-pill small">#244,
                         Ground Floor, Yelahanka New Town</div>
