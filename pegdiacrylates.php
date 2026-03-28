@@ -152,7 +152,7 @@
                     <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
-                            <i class="bi bi-capsule text-teal fs-4"></i>
+                            <i class="bi bi-capsule-pill text-teal fs-4"></i>
                         </div>
                         <div>
                             <h6 class="fw-bold mb-1">Drug Delivery</h6>
@@ -174,7 +174,7 @@
                     <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="200">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
-                            <i class="bi bi-heart-pulse text-teal fs-4"></i>
+                            <i class="bi bi-shield-plus text-teal fs-4"></i>
                         </div>
                         <div>
                             <h6 class="fw-bold mb-1">Medical Devices</h6>
@@ -185,7 +185,7 @@
                     <li class="d-flex mb-0 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="300">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
-                            <i class="bi bi-microscope text-orange fs-4"></i>
+                            <i class="bi bi-activity text-orange fs-4"></i>
                         </div>
                         <div>
                             <h6 class="fw-bold mb-1">Research Tools</h6>

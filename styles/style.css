@@ -8,11 +8,10 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 body {
-    -webkit-font-smoothing: antialiased;
-    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;    
     color: #333333;
     overflow-x: hidden;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 ul,
@@ -29,8 +28,7 @@ a {
 }
 
 p {
-    line-height: 1.8rem;
-    font-size: 16px;
+    line-height: 1.8rem;  
     color: #333333;
 }
 
@@ -65,8 +63,7 @@ img {
     text-align: center;
 }
 
-.loader-logo {
-    font-family: "Poppins", sans-serif;
+.loader-logo {    
     font-weight: 800;
     font-size: 32px;
     color: #FFFFFF;
@@ -78,8 +75,7 @@ img {
     color: #F47A32;
 }
 
-.loader-tagline {
-    font-family: "Poppins", sans-serif;
+.loader-tagline {    
     font-size: 13px;
     color: #10706E;
     letter-spacing: 2px;
@@ -169,8 +165,7 @@ img {
     gap: 5px;
 }
 
-.nav-link {
-    font-family: "Poppins", sans-serif;
+.nav-link {  
     font-weight: 500;
     font-size: 14px;
     color: #1B3B3D;
@@ -259,9 +254,7 @@ img {
 
 .sub-menu-link {
     display: block;
-    padding: 8px 20px;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    padding: 8px 20px;        
     color: #1B3B3D;
 }
 
@@ -278,10 +271,8 @@ img {
 
 .header-contact-btn {
     background-color: #F47A32;
-    color: #FFFFFF;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 13px;
+    color: #FFFFFF;   
+    font-weight: 700;   
     padding: 10px 22px;
     border: 2px solid #F47A32;
     border-radius: 4px;
@@ -439,8 +430,7 @@ img {
     width: 100%;
 }
 
-.hero-subtitle {
-    font-family: "Poppins", sans-serif;
+.hero-subtitle {    
     font-weight: 600;
     font-size: 14px;
     color: #F47A32;
@@ -450,8 +440,7 @@ img {
     display: block;
 }
 
-.hero-title {
-    font-family: "Poppins", sans-serif;
+.hero-title {    
     font-weight: 800;
     font-size: 52px;
     color: #FFFFFF;
@@ -460,8 +449,7 @@ img {
     max-width: 700px;
 }
 
-.hero-description {
-    font-family: "Poppins", sans-serif;
+.hero-description {    
     font-size: 17px;
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.8;
@@ -476,8 +464,7 @@ img {
     margin-bottom: 35px;
 }
 
-.hero-tag {
-    font-family: "Poppins", sans-serif;
+.hero-tag {    
     font-weight: 600;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.9);
@@ -490,8 +477,7 @@ img {
 
 .btn-hero-primary {
     background-color: #F47A32;
-    color: #FFFFFF;
-    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;    
     font-weight: 700;
     font-size: 15px;
     padding: 14px 32px;
@@ -584,8 +570,7 @@ img {
     }
 }
 
-.section-label {
-    font-family: "Poppins", sans-serif;
+.section-label {    
     font-weight: 600;
     font-size: 13px;
     color: #F47A32;
@@ -662,10 +647,8 @@ img {
 
 .btn-about {
     background-color: #F47A32;
-    color: #FFFFFF;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 15px;
+    color: #FFFFFF;    
+    font-weight: 700;   
     padding: 12px 30px;
     border: 2px solid #F47A32;
     border-radius: 4px;
@@ -907,8 +890,7 @@ img {
 
 .btn-quality {
     background-color: #F47A32;
-    color: #FFFFFF;
-    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;    
     font-weight: 700;
     font-size: 15px;
     padding: 12px 30px;
@@ -1204,8 +1186,7 @@ footer p{
     margin-bottom: 20px;
 }
 
-.footer-desc {
-    font-size: 14px;
+.footer-desc {    
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 20px;
 }
@@ -1248,7 +1229,7 @@ footer p{
 }
 
 .footer-links li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .footer-link {
@@ -1340,8 +1321,7 @@ footer p{
     letter-spacing: 1px;
 }
 
-.about-headline {
-    font-family: "Poppins", sans-serif;
+.about-headline {    
     font-size: clamp(36px, 6vw, 64px);
     font-weight: 800;
     line-height: 1.1;
@@ -1684,8 +1664,7 @@ footer p{
     display: block;
     width:30px;
     height: 30px;
-    border-radius: 50%;
-    display: block;
+    border-radius: 50%;    
     text-align: center;
 }
 

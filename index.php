@@ -104,7 +104,7 @@
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
                         </div>
-                        <span class="highlight-text">16+ years expertise in sustained release formulations</span>
+                        <span class="highlight-text">With over 16 years of expertise in sustained release formulations</span>
                     </div>
                     <div class="highlight-item">
                         <div class="highlight-icon">
@@ -113,17 +113,9 @@
                                 <polyline points="20 6 9 17 4 12"></polyline>
                             </svg>
                         </div>
-                        <span class="highlight-text">Pharmaceutical-grade excellence</span>
+                        <span class="highlight-text">With over 16 years of expertise in polymers for sustained release formulations</span>
                     </div>
-                    <div class="highlight-item">
-                        <div class="highlight-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                        </div>
-                        <span class="highlight-text">Bengaluru-based with global reach</span>
-                    </div>
+                   
                 </div>
 
                 <div class="about-cin">
@@ -400,7 +392,7 @@
 <section class="services-section" id="services">
     <div class="container">
         <div class="section-header" data-aos="fade-up">
-            <span class="section-label">What We Do</span>
+            <span class="section-label">Areas of Expertise</span>
             <h2 class="section-title">What We Do</h2>
             <p class="section-subtitle">Functional polymers for controlled drug delivery & 3D bioprinting</p>
         </div>
@@ -449,9 +441,9 @@
                 </div>
                 <h3 class="service-title">Specialty Polymers</h3>
                 <ul class="service-list">
-                    <li><span class="bullet"></span>Stimuli-responsive</li>
-                    <li><span class="bullet"></span>Mucoadhesive</li>
-                    <li><span class="bullet"></span>Surface functionalized</li>
+                    <li><span class="bullet"></span>Poly(2-oxazoline) (POZ)-Based Polymers</li>
+                    <li><span class="bullet"></span>Hyaluronic Acid (HA)-Based Polymers</li>
+                    <li><span class="bullet"></span>GELMA & collagen methacrylate platforms</li>
                 </ul>               
             </div>
             <!-- Service 4 -->

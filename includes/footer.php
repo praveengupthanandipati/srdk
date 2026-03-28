@@ -90,7 +90,7 @@
                             </path>
                             <polyline points="22,6 12,13 2,6"></polyline>
                         </svg>
-                        <a href="mailto:info@srdkbiochemicals.com">info@srdkbiochemicals.com</a>
+                        <a href="mailto:info@srdkbiochem.com">info@srdkbiochem.com</a>
                     </li>
                 </ul>
             </div>

@@ -155,43 +155,60 @@
                     <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
-                            <i class="bi bi-segmented-nav text-teal fs-4"></i>
+                            <i class="bi bi-grid-3x3-gap text-teal fs-4"></i>
                         </div>
                         <div>
-                            <h6 class="fw-bold mb-1">Tissue Engineering</h6>
-                            <p class="small text-muted mb-0">Cartilage repair, bone scaffolds, and load-bearing
-                                implants.</p>
+                            <h6 class="fw-bold mb-1">Tissue engineering scaffolds</h6>
+                            <p class="small text-muted mb-0">PEGDMA-based hydrogels and composite bioinks for bone,
+                                cartilage, and soft tissue regeneration, including 3D printed constructs with bone-like
+                                mechanical properties.</p>
                         </div>
                     </li>
                     <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="100">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
-                            <i class="bi bi-capsule-pill text-orange fs-4"></i>
+                            <i class="bi bi-printer text-orange fs-4"></i>
                         </div>
                         <div>
-                            <h6 class="fw-bold mb-1">Long-Term Delivery</h6>
-                            <p class="small text-muted mb-0">Stable matrices for extended drug release (months to
-                                years).</p>
+                            <h6 class="fw-bold mb-1">3D bioprinting & bioinks</h6>
+                            <p class="small text-muted mb-0">Photocurable component in extrusion and light-based
+                                bioprinting formulations to provide structural integrity, shape fidelity, and controlled
+                                stiffness while maintaining cell compatibility.</p>
                         </div>
                     </li>
                     <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="200">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
-                            <i class="bi bi-brightness-high text-teal fs-4"></i>
+                            <i class="bi bi-capsule-pill text-teal fs-4"></i>
                         </div>
                         <div>
-                            <h6 class="fw-bold mb-1">Dental Materials</h6>
-                            <p class="small text-muted mb-0">Resins, adhesives, and orthodontic applications.</p>
+                            <h6 class="fw-bold mb-1">Drug delivery & controlled release systems</h6>
+                            <p class="small text-muted mb-0">Hydrophilic crosslinked networks for sustained drug
+                                release, where mesh size and degradation can be tuned to control diffusion and release
+                                profiles.</p>
                         </div>
                     </li>
-                    <li class="d-flex mb-0 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="300">
+                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="300">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
-                            <i class="bi bi-node-plus text-orange fs-4"></i>
+                            <i class="bi bi-shield-plus text-orange fs-4"></i>
                         </div>
                         <div>
-                            <h6 class="fw-bold mb-1">Durable Devices</h6>
-                            <p class="small text-muted mb-0">Long-term implants and structural biomaterials.</p>
+                            <h6 class="fw-bold mb-1">Dental and medical materials</h6>
+                            <p class="small text-muted mb-0">Component in dental composites, adhesives, and biomedical
+                                coatings to enhance durability, flexibility, and hydrophilic character.</p>
+                        </div>
+                    </li>
+                    <li class="d-flex mb-0 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="400">
+                        <div
+                            class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
+                            <i class="bi bi-activity text-teal fs-4"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Sensors, microfluidics, and coatings</h6>
+                            <p class="small text-muted mb-0">PEGDMA hydrogels as functional layers and molecular filters
+                                on electrochemical and microfluidic devices, controlling diffusion of analytes and
+                                protecting sensor surfaces.</p>
                         </div>
                     </li>
                 </ul>
@@ -336,7 +353,7 @@
         <p class="text-white opacity-75 lg-px-5" data-aos="fade-up" data-aos-delay="100">Contact our technical team for
             custom formulations, bulk orders, and application support.</p>
         <div data-aos="zoom-in" data-aos-delay="200" class="mt-4">
-           <a href="contact.php" class="btn-quality">Request Quote</a>
+            <a href="contact.php" class="btn-quality">Request Quote</a>
         </div>
     </div>
     <div class="cta-decor-circle"></div>

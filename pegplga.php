@@ -298,7 +298,7 @@
             <div class="col-lg-3 col-md-6" data-aos="zoom-in">
                 <div class="application-pill p-4 h-100 bg-white border rounded-4 hover-up-teal transition-all">
                     <div class="icon-circle-bg mb-3 bg-teal-light text-teal rounded-circle d-inline-flex p-3"><i
-                            class="bi bi-droplet fs-3"></i></div>
+                            class="bi bi-capsule-pill fs-3"></i></div>
                     <h6 class="fw-bold">Micellar Delivery</h6>
                     <p class="small text-muted mb-0">For hydrophobic anticancer agents like Paclitaxel.</p>
                 </div>
@@ -314,7 +314,7 @@
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                 <div class="application-pill p-4 h-100 bg-white border rounded-4 hover-up-teal transition-all">
                     <div class="icon-circle-bg mb-3 bg-teal-light text-teal rounded-circle d-inline-flex p-3"><i
-                            class="bi bi-thermometer-high fs-3"></i></div>
+                            class="bi bi-thermometer-half fs-3"></i></div>
                     <h6 class="fw-bold">Injectable Depots</h6>
                     <p class="small text-muted mb-0">In situ gelation for localized drug release.</p>
                 </div>
@@ -322,7 +322,7 @@
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                 <div class="application-pill p-4 h-100 bg-white border rounded-4 hover-up-orange transition-all">
                     <div class="icon-circle-bg mb-3 bg-orange-light text-orange rounded-circle d-inline-flex p-3"><i
-                            class="bi bi-layers fs-3"></i></div>
+                            class="bi bi-grid-3x3-gap fs-3"></i></div>
                     <h6 class="fw-bold">Tissue Engineering</h6>
                     <p class="small text-muted mb-0">Cell encapsulation and biodegradable scaffolds.</p>
                 </div>
