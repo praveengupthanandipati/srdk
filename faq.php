@@ -56,8 +56,7 @@
                         </h2>
                         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body text-muted">
-                                Our corporate headquarters and manufacturing operations are located at #244, Ground
-                                Floor, SFS 407, 1st Main Yelahanka New Town, Bangalore, Karnataka, India – 560064.
+                                Our corporate headquarters and manufacturing operations are located at F26, FLO-TSIIC Industrial Park, Medical Devices Park, Ameenpur, Hyderabad, Telangana - 502319
                             </div>
                         </div>
                     </div>

@@ -77,6 +77,8 @@ document.addEventListener('DOMContentLoaded', function() {
             clickable: true,
         },
         speed: 800,
+        observer: true,
+        observeParents: true,
     });
 
     // ── Expertise Swiper Initialization ──
@@ -113,6 +115,8 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         speed: 800,
         grabCursor: true,
+        observer: true,
+        observeParents: true,
     });
 
 

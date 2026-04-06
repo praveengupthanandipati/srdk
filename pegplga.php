@@ -26,7 +26,7 @@
 <section class="py-5 bg-white">
     <div class="container py-4">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">The Best of Both Worlds</h2>
                 <p>PEG-PLGA block copolymers combine hydrophilic polyethylene glycol (PEG)
@@ -35,7 +35,7 @@
                     self-assembly into nanoparticles, micelles, and thermosensitive hydrogels. These polymers offer
                     precisely tunable degradation and stealth properties for systemic and localized delivery.</p>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="p-4 rounded-4 shadow-sm border-start border-5 border-teal overview-card-bg">
                     <h4 class="mb-3 text-teal">Key Capabilities</h4>
                     <ul class="list-unstyled space-y-3">
@@ -211,7 +211,7 @@
 <section class="py-5 bg-white">
     <div class="container py-4">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline">Value Proposition</div>
                 <h3 class="mb-4">Key Advantages</h3>
                 <div class="row g-4">
@@ -247,7 +247,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="p-4 bg-light-soft rounded-4 border-start border-5 border-teal">
                     <h5 class="fw-bold mb-4">Diblock vs Triblock Comparison</h5>
                     <div class="table-responsive">

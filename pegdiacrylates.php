@@ -26,7 +26,7 @@
 <section class="py-5 bg-white">
     <div class="container py-4">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">Biocompatible Polymeric Crosslinker</h2>
                 <p>Poly(ethylene glycol) diacrylate (PEGDA) is a biocompatible, water-soluble
@@ -35,7 +35,7 @@
                 <p>SRDK's PEGDA is synthesized with high precision to ensure consistent performance
                     across various biomedical applications, from controlled drug release to scaffold engineering.</p>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="p-4 rounded-4 shadow-sm border-start border-5 border-teal overview-card-bg">
                     <h4 class="mb-3 text-teal">Available Molecular Weights</h4>
                     <div class="table-responsive">
@@ -149,7 +149,7 @@
                 <div class="overline mb-3">Applications</div>
                 <h3 class="mb-5">Biomedical Use Cases</h3>
                 <ul class="list-unstyled">
-                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left">
+                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-up">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
                             <i class="bi bi-capsule-pill text-teal fs-4"></i>
@@ -160,7 +160,7 @@
                                 and biologics.</p>
                         </div>
                     </li>
-                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="100">
+                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-up" data-aos-delay="100">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
                             <i class="bi bi-printer text-orange fs-4"></i>
@@ -171,7 +171,7 @@
                             </p>
                         </div>
                     </li>
-                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="200">
+                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-up" data-aos-delay="200">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
                             <i class="bi bi-shield-plus text-teal fs-4"></i>
@@ -182,7 +182,7 @@
                                 scaffolds.</p>
                         </div>
                     </li>
-                    <li class="d-flex mb-0 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="300">
+                    <li class="d-flex mb-0 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-up" data-aos-delay="300">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
                             <i class="bi bi-activity text-orange fs-4"></i>

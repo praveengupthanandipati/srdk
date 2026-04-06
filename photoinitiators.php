@@ -21,13 +21,13 @@
 <section class="py-5 bg-white">
     <div class="container py-4">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">Precision Photocrosslinking</h2>
                 <p>Photoinitiators enable rapid, spatially controlled polymerization of hydrogels for drug delivery, 3D bioprinting, and tissue engineering.</p>
                 <p>Our portfolio includes water-soluble, biocompatible initiators activated by UV (365 nm) or visible light (405 nm) ensuring high cell viability and structural fidelity in complex biomedical constructs.</p>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="p-4 rounded-4 shadow-sm border-start border-5 border-teal overview-card-bg">
                     <h4 class="mb-3 text-teal">Photoinitiator Portfolio</h4>
                     <div class="table-responsive">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7" data-aos="fade-left">
+            <div class="col-lg-7" data-aos="fade-up">
                 <div class="bg-white p-4 rounded-4 shadow-sm border">
                     <h5 class="mb-4 fw-bold">LAP Recommended Usage</h5>
                     <div class="row g-4">

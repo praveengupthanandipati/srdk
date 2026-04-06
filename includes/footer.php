@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row g-4">
             <!-- Brand Info -->
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 d-none d-md-block">
                 <a href="index.php" class="d-inline-block">
                     <img src="img/whitelogo.svg" alt="SRDK Biochemicals" class="footer-logo-img">
                 </a>
@@ -34,7 +34,7 @@
             </div>
 
             <!-- Quick Links -->
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="col-6 col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <h4 class="footer-heading">Company</h4>
                 <ul class="footer-links">
                     <li><a href="about.php" class="footer-link">About Us</a></li>
@@ -46,7 +46,7 @@
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="col-6 col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <h4 class="footer-heading">Products</h4>
                 <ul class="footer-links">
                     <li><a href="pegdiacrylates.php" class="footer-link">PEG Diacrylates</a></li>
@@ -68,8 +68,7 @@
                             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                             <circle cx="12" cy="10" r="3"></circle>
                         </svg>
-                        <span>N#244, GROUND FLOOR, SFS 407, 1St MAIN YELAHANKA NEW TOWN, BANGALORE, Karnataka, India –
-                            560064</span>
+                        <span>F26, FLO-TSIIC Industrial Park, Medical Devices Park, Ameenpur, Hyderabad, Telangana - 502319</span>
                     </li>
                     <li>
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -79,8 +78,7 @@
                             </path>
                         </svg>
                         <div>
-                            <a href="tel:+918012345678">+91 80 1234 5678</a><br />
-                            <a href="tel:+919876543210">+91 98765 43210</a>
+                            <a href="tel:+91 7661898368">+91 7661898368</a><br />                            
                         </div>
                     </li>
                     <li>

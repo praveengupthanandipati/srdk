@@ -21,13 +21,13 @@
 <section class="py-5 bg-white">
     <div class="container py-4">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">Versatile Amphiphilic Systems</h2>
                 <p>Our PEG-based diblock and triblock copolymers combine hydrophilic polyethylene glycol (PEG) with biodegradable hydrophobic blocks.</p>
                 <p>These advanced materials enable spontaneous self-assembly into micelles, thermosensitive hydrogels, and sustained-release drug delivery systems. By selecting different hydrophobic blocks like PCL, PLA, or PDLLA, we offer tailored degradation rates and mechanical properties for diverse biomedical applications.</p>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="p-4 rounded-4 shadow-sm border-start border-5 border-teal overview-card-bg">
                     <h4 class="mb-3 text-teal">Core Capabilities</h4>
                     <ul class="list-unstyled space-y-3">
@@ -168,7 +168,7 @@
 <section class="py-5 bg-light-soft">
     <div class="container py-4">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline">Architecture Matters</div>
                 <h3 class="mb-4">Diblock vs Triblock Architecture</h3>
                 <div class="table-responsive shadow-sm rounded-4 border overflow-hidden bg-white">
@@ -210,7 +210,7 @@
                     </table>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline">Molecular Weight Range</div>
                 <h3 class="mb-4">Standard Configurations</h3>
                 <div class="p-3 bg-white rounded-3 mb-3 shadow-sm border-start border-3 border-teal">

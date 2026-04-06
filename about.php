@@ -20,7 +20,7 @@
 <section class="about-intro-section">
     <div class="container">
         <div class="row g-5 align-items-center">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="about-image-wrapper">
                     <div class="accent-box"></div>
                     <img src="img/about-lab.png" alt="Scientific Research" class="img-fluid about-intro-img">
@@ -30,9 +30,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="ps-lg-5">
-                    <div class="overline">Who We Are</div>
+                    <div class="overline text-orange">Who We Are</div>
                     <h2 class="mb-4 overview-title">Advancing Healthcare Through <span
                             style="color: #10706e;">Reliable Quality</span></h2>
                     <p class="mb-4 section-text">The company focuses on bioabsorbable and functional polymers that help

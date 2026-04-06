@@ -40,7 +40,7 @@
     <div class="container pb-5">
         <div class="row g-4">
             <!-- Service 1: Custom Synthesis -->
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div
                     class="service-card p-4 p-md-5 h-100 bg-white rounded-4 shadow-sm border-start border-5 border-teal transition-all hover-up-teal">
                     <div class="d-flex align-items-center mb-4">
@@ -64,7 +64,7 @@
             </div>
 
             <!-- Service 2: Formulation Development -->
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div
                     class="service-card p-4 p-md-5 h-100 bg-white rounded-4 shadow-sm border-start border-5 border-orange transition-all hover-up-orange">
                     <div class="d-flex align-items-center mb-4">
@@ -88,7 +88,7 @@
             </div>
 
             <!-- Service 3: Application Optimization -->
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                 <div
                     class="service-card p-4 p-md-5 h-100 bg-white rounded-4 shadow-sm border-start border-5 border-orange transition-all hover-up-orange">
                     <div class="d-flex align-items-center mb-4">
@@ -112,7 +112,7 @@
             </div>
 
             <!-- Service 4: Scale-up Support -->
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                 <div
                     class="service-card p-4 p-md-5 h-100 bg-white rounded-4 shadow-sm border-start border-5 border-teal transition-all hover-up-teal">
                     <div class="d-flex align-items-center mb-4">

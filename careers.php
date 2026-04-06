@@ -93,7 +93,7 @@
 <section class="py-5 bg-white">
     <div class="container py-4">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline">Our Infrastructure</div>
                 <h2 class="section-title mb-4">State-of-the-Art Facilities</h2>
                 <p class="section-text lead">Our Bengaluru-based operations feature advanced infrastructure designed for
@@ -125,7 +125,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="p-5 bg-dark rounded-4 shadow-lg position-relative overflow-hidden text-center text-white">
                     <div class="opacity-10 position-absolute top-0 start-0 p-3"><i class="bi bi-hospital fs-1"></i>
                     </div>
@@ -149,13 +149,13 @@
         <p class="text-white opacity-75 lg-px-5" data-aos="fade-up" data-aos-delay="100">Send your CV and a brief cover
             letter describing your interest in biomedical polymers to:</p>
         <div data-aos="zoom-in" data-aos-delay="200" class="mt-4">
-            <a href="mailto:careers@srdk.com"
+            <a href="mailto:hr@srdkbiochem.com"
                 class="careers-email-btn d-inline-block p-4 border rounded-4 bg-white bg-opacity-10 transition-all hover-scale">
                 <div class="d-flex align-items-center">
                     <i class="bi bi-envelope-at fs-1 text-warning me-3"></i>
                     <div class="text-start">
                         <div class="small fw-bold opacity-75">Send Resume to:</div>
-                        <div class="h3 mb-0 text-white">careers@srdk.com</div>
+                        <div class="h3 mb-0 text-white">hr@srdkbiochem.com</div>
                     </div>
                 </div>
             </a>

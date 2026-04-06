@@ -1,4 +1,5 @@
 <?php include 'includes/header.php'; ?>
+<?php include 'includes/data.php'; ?>
 
 <!-- ══════ HERO CAROUSEL ══════ -->
 <section class="hero-section" id="hero">
@@ -8,72 +9,35 @@
     <div class="container-fluid p-0">
         <div class="swiper hero-swiper">
             <div class="swiper-wrapper">
-                <!-- Slide 1 -->
+                <?php foreach ($hero_slides as $slide): ?>
                 <div class="swiper-slide">
-                    <div class="hero-slide" style="background-image: url('img/hero-bg01.jpg');">
+                    <div class="hero-slide" style="background-image: url('<?php echo $slide['bg']; ?>');">
                         <div class="hero-overlay"></div>
-                        <div class="hero-content container">
-                            <span class="hero-subtitle">SRDK BIOCHEMICALS</span>
-                            <h1 class="hero-title">Innovating Polymers For Better Therapies</h1>
-                            <p class="hero-description">Engineering next-generation polymer platforms for safer, more
-                                effective patient-centric therapies</p>
-                            <div class="hero-buttons d-none">
-                                <a href="#products" class="btn-hero-primary">Explore Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide 2 -->
-                <div class="swiper-slide">
-                    <div class="hero-slide" style="background-image: url('img/hero-bg02.jpg');">
-                        <div class="hero-overlay"></div>
-                        <div class="hero-content container">
-                            <span class="hero-subtitle">CORE PRODUCTS</span>
-                            <h1 class="hero-title">Bioabsorbable Polymers For Drug Delivery & 3D Bioprinting</h1>
-                            <p class="hero-description">16+ years expertise • Pharmaceutical-grade</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-8 hero-content" data-aos="fade-up">
+
+                                     <span class="hero-subtitle"><?php echo htmlspecialchars($slide['subtitle']); ?></span>
+                            <h1 class="hero-title"><?php echo htmlspecialchars($slide['title']); ?></h1>
+                            <p class="hero-description"><?php echo htmlspecialchars($slide['description']); ?></p>
+                            <?php if (!empty($slide['tags'])): ?>
                             <div class="hero-tags">
-                                <span class="hero-tag">PLGA</span>
-                                <span class="hero-tag">PEG-PLGA</span>
-                                <span class="hero-tag">PEG Block Copolymers</span>
-                                <span class="hero-tag">PEG Diacrylates</span>
-                                <span class="hero-tag">PEG Dimethacrylates</span>
+                                <?php foreach ($slide['tags'] as $tag): ?>
+                                    <span class="hero-tag"><?php echo htmlspecialchars($tag); ?></span>
+                                <?php endforeach; ?>
                             </div>
+                            <?php endif; ?>
                             <div class="hero-buttons d-none">
-                                <a href="#products" class="btn-hero-primary">Discover Our Expertise</a>
+                                <a href="<?php echo htmlspecialchars($slide['button']['href']); ?>" class="btn-hero-primary"><?php echo htmlspecialchars($slide['button']['text']); ?></a>
                             </div>
+
+                                </div>
+                            </div>
+                       
                         </div>
                     </div>
                 </div>
-                <!-- Slide 3 -->
-                <div class="swiper-slide">
-                    <div class="hero-slide" style="background-image: url('img/hero-bg03.jpg');">
-                        <div class="hero-overlay"></div>
-                        <div class="hero-content container">
-                            <span class="hero-subtitle">QUALITY ASSURANCE</span>
-                            <h1 class="hero-title">Pharmaceutical-Grade Specialty Polymers</h1>
-                            <p class="hero-description">FDA-relevant materials for biomedical applications and
-                                controlled release systems</p>
-                            <div class="hero-buttons d-none">
-                                <a href="#products" class="btn-hero-primary">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide 4 -->
-                <div class="swiper-slide">
-                    <div class="hero-slide" style="background-image: url('img/hero-bg04.jpg');">
-                        <div class="hero-overlay"></div>
-                        <div class="hero-content container">
-                            <span class="hero-subtitle">ADVANCED SOLUTIONS</span>
-                            <h1 class="hero-title">Advanced Polymers For 3D Bioprinting & Regenerative Medicine</h1>
-                            <p class="hero-description">PEG Diacrylates • PEG Dimethacrylates • Photoinitiators for
-                                Hydrogels</p>
-                            <div class="hero-buttons d-none">
-                                <a href="about.php" class="btn-hero-primary">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -84,7 +48,7 @@
 <section class="about-section" id="about">
     <div class="container">
         <div class="about-wrapper">
-            <div class="about-text" data-aos="fade-right">
+            <div class="about-text" data-aos="fade-up">
                 <span class="section-label">Who We Are</span>
                 <h2 class="section-title">About SRDK Biochemicals</h2>
                 <p class="about-description">
@@ -125,7 +89,7 @@
                 <a href="about.php" class="btn-about">Learn More →</a>
             </div>
 
-            <div class="about-image" data-aos="fade-left" data-aos-delay="200">
+            <div class="about-image" data-aos="fade-up" data-aos-delay="200">
                 <img src="img/about-lab.png" alt="SRDK Biochemicals Lab Facility" class="about-img">
                 <div class="about-badge">
                     <span class="badge-number">16+</span>
@@ -148,169 +112,25 @@
         </div>
 
         <div class="products-grid">
-            <!-- Product 1 -->
-            <div class="product-card" data-aos="fade-up">
+            <?php foreach ($products as $i => $product): ?>
+            <div class="product-card" data-aos="fade-up"<?php if ($i > 0) echo ' data-aos-delay="' . ($i * 100) . '"'; ?>>
                 <div class="product-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                    </svg>
+                    <?php echo $product['icon']; ?>
                 </div>
-                <h3 class="product-name">PEG Diacrylates</h3>
-                <span class="product-subtitle">PEGDA</span>
+                <h3 class="product-name"><?php echo htmlspecialchars($product['name']); ?></h3>
+                <span class="product-subtitle"><?php echo htmlspecialchars($product['subtitle']); ?></span>
                 <ul class="product-features">
-                    <li>Photocurable hydrogels</li>
-                    <li>3D bioprinting scaffolds</li>
-                    <li>Tissue engineering</li>
+                    <?php foreach ($product['features'] as $feature): ?>
+                        <li><?php echo htmlspecialchars($feature); ?></li>
+                    <?php endforeach; ?>
                 </ul>
                 <div class="product-arrow">
-                    <a href="pegdiacrylates.php" class="product-link">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
+                    <a href="<?php echo htmlspecialchars($product['link']); ?>" class="product-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </a>
                 </div>
             </div>
-            <!-- Product 2 -->
-            <div class="product-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="product-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path
-                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-                        </path>
-                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                    </svg>
-                </div>
-                <h3 class="product-name">PEG Dimethacrylates</h3>
-                <span class="product-subtitle">PEGDMA</span>
-                <ul class="product-features">
-                    <li>Crosslinkable polymers</li>
-                    <li>Durable hydrogels</li>
-                    <li>Controlled release systems</li>
-                </ul>
-                <div class="product-arrow">
-                    <a href="pegdimethacrylates.php" class="product-link">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <!-- Product 3 -->
-            <div class="product-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="product-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
-                    </svg>
-                </div>
-                <h3 class="product-name">Photoinitiators</h3>
-                <span class="product-subtitle">FOR HYDROGELS</span>
-                <ul class="product-features">
-                    <li>High-efficiency initiation</li>
-                    <li>Rapid curing systems</li>
-                    <li>PEGDA/PEGDMA optimized</li>
-                </ul>
-                <div class="product-arrow">
-                    <a href="photoinitiators.php" class="product-link">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <!-- Product 4 -->
-            <div class="product-card" data-aos="fade-up" data-aos-delay="300">
-                <div class="product-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M20 7h-7L10 3H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z">
-                        </path>
-                    </svg>
-                </div>
-                <h3 class="product-name">PLGA</h3>
-                <span class="product-subtitle">BIOABSORBABLE POLYMERS</span>
-                <ul class="product-features">
-                    <li>Biodegradable formulations</li>
-                    <li>Long-acting injectables</li>
-                    <li>Implant applications</li>
-                </ul>
-                <div class="product-arrow">
-                    <a href="plga.php" class="product-link">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <!-- Product 5 -->
-            <div class="product-card" data-aos="fade-up" data-aos-delay="400">
-                <div class="product-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path
-                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                        </path>
-                    </svg>
-                </div>
-                <h3 class="product-name">PEG-PLGA</h3>
-                <span class="product-subtitle">BLOCK COPOLYMERS</span>
-                <ul class="product-features">
-                    <li>Amphiphilic properties</li>
-                    <li>Micelles & nanoparticles</li>
-                    <li>Enhanced drug delivery</li>
-                </ul>
-                <div class="product-arrow">
-                    <a href="pegplga.php" class="product-link">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <!-- Product 6 -->
-            <div class="product-card" data-aos="fade-up" data-aos-delay="500">
-                <div class="product-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path
-                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-                        </path>
-                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                    </svg>
-                </div>
-                <h3 class="product-name">PEG Block Copolymers</h3>
-                <span class="product-subtitle">SPECIALTY POLYMERS</span>
-                <ul class="product-features">
-                    <li>Tailored MW control</li>
-                    <li>Self-assembly capabilities</li>
-                    <li>Controlled release profiles</li>
-                </ul>
-                <div class="product-arrow">
-                    <a href="pegblockcopolymers.php" class="product-link">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>

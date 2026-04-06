@@ -39,10 +39,10 @@ $product_pages = ['pegdiacrylates.php', 'pegdimethacrylates.php', 'photoinitiato
 <body>
 
     <!-- Page Loader -->
-    <div class="page-loader" id="page-loader">
+    <div class="page-loader d-flex align-items-center justify-content-center" id="page-loader">
         <div class="loader-content">
             <div class="loader-logo">
-                SRDK <span>BIOCHEMICALS</span>
+                <img src="img/whitelogo.svg" alt="SRDK Biochemicals" class="logo-img">
             </div>
             <div class="loader-tagline">Innovating Polymers for Better Therapies</div>
             <div class="loader-bar">
@@ -51,17 +51,19 @@ $product_pages = ['pegdiacrylates.php', 'pegdimethacrylates.php', 'photoinitiato
         </div>
     </div>
 
+
+
     <header class="site-header" id="site-header">
         <div class="container">
             <div class="header-inner">
-                <a href="index.php" class="header-logo">
+                <a href="https://srdkbiochem.com" class="header-logo">
                     <img src="img/logo.svg" alt="SRDK Biochemicals" class="logo-img">
                 </a>
 
                 <ul class="header-nav" id="header-nav">
                     <li class="nav-item">
-                        <a href="index.php"
-                            class="nav-link <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>">Home</a>
+                        <a href="https://srdkbiochem.com/"
+                            class="nav-link <?php echo ($current_page == 'https://srdkbiochem.com/') ? 'active' : ''; ?>">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="about.php"
@@ -108,6 +110,10 @@ $product_pages = ['pegdiacrylates.php', 'pegdimethacrylates.php', 'photoinitiato
                     <li class="nav-item">
                         <a href="faq.php"
                             class="nav-link <?php echo ($current_page == 'faq.php') ? 'active' : ''; ?>">FAQ's</a>
+                    </li>
+                     <li class="nav-item d-block d-lg-none">
+                        <a href="contact.php"
+                            class="nav-link <?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">Contact</a>
                     </li>
                 </ul>
 

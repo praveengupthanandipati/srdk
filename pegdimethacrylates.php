@@ -26,7 +26,7 @@
 <section class="py-5 bg-white">
     <div class="container py-4">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">Stable Polymeric Crosslinker</h2>
                 <p>Poly(ethylene glycol) dimethacrylate (PEGDMA) is a biocompatible macromer
@@ -36,11 +36,11 @@
                     controlled polymerization kinetics, making them ideal for thicker constructs and applications
                     requiring high structural integrity.</p>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="p-4 rounded-4 shadow-sm border-start border-5 border-teal overview-card-bg">
                     <h4 class="mb-3 text-teal">Available Molecular Weights</h4>
                     <div class="table-responsive">
-                        <table class="table table-hover align-middle mb-0">
+                        <table class="table table-bordered align-middle mb-0">
                             <thead class="table-light">
                                 <tr>
                                     <th>Code</th>
@@ -152,7 +152,7 @@
                 <div class="overline mb-3">Applications</div>
                 <h3 class="mb-5">Biomedical Use Cases</h3>
                 <ul class="list-unstyled">
-                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left">
+                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-up">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
                             <i class="bi bi-grid-3x3-gap text-teal fs-4"></i>
@@ -164,7 +164,7 @@
                                 mechanical properties.</p>
                         </div>
                     </li>
-                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="100">
+                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-up" data-aos-delay="100">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
                             <i class="bi bi-printer text-orange fs-4"></i>
@@ -176,7 +176,7 @@
                                 stiffness while maintaining cell compatibility.</p>
                         </div>
                     </li>
-                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="200">
+                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-up" data-aos-delay="200">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
                             <i class="bi bi-capsule-pill text-teal fs-4"></i>
@@ -188,7 +188,7 @@
                                 profiles.</p>
                         </div>
                     </li>
-                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="300">
+                    <li class="d-flex mb-4 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-up" data-aos-delay="300">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
                             <i class="bi bi-shield-plus text-orange fs-4"></i>
@@ -199,7 +199,7 @@
                                 coatings to enhance durability, flexibility, and hydrophilic character.</p>
                         </div>
                     </li>
-                    <li class="d-flex mb-0 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-left" data-aos-delay="400">
+                    <li class="d-flex mb-0 p-3 bg-white rounded-3 shadow-sm" data-aos="fade-up" data-aos-delay="400">
                         <div
                             class="me-3 p-2 rounded-circle bg-light d-flex align-items-center justify-content-center icon-circle-bg">
                             <i class="bi bi-activity text-teal fs-4"></i>
@@ -229,8 +229,8 @@
         </div>
         <div class="row justify-content-center" data-aos="fade-up">
             <div class="col-lg-10">
-                <div class="table-responsive shadow-sm rounded-4 border overflow-hidden">
-                    <table class="table table-hover align-middle mb-0 text-center">
+                <div class="table-responsive shadow rounded-4 border overflow-hidden">
+                    <table class="table table-bordered align-middle mb-0 text-center">
                         <thead class="bg-teal text-white">
                             <tr>
                                 <th class="text-start ps-4">Property</th>

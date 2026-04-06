@@ -26,7 +26,7 @@
 <section class="py-5 bg-white">
     <div class="container py-4">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline">Product Overview</div>
                 <h2 class="section-title mb-4">Biodegradable Excellence</h2>
                 <p>Poly(lactic-co-glycolic acid) (PLGA) is a synthetic, biocompatible, and
@@ -35,7 +35,7 @@
                     weights, and end-group chemistry for diverse biomedical applications, ranging from nanoparticle drug
                     carriers to structural medical implants.</p>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="p-4 rounded-4 shadow-sm border-start border-5 border-teal overview-card-bg">
                     <h4 class="mb-3 text-teal">PLGA Highlights</h4>
                     <ul class="list-unstyled space-y-3">
@@ -252,7 +252,7 @@
     <div class="container py-4">
         <div class="row g-5">
             <!-- End Group Column -->
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline mb-3">Chemical Tuning</div>
                 <h3 class="mb-4">End-Group Chemistry</h3>
                 <div class="accordion accordion-flush bg-transparent" id="endGroupAccordion">
@@ -303,7 +303,7 @@
             </div>
 
             <!-- MW Column -->
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="overline mb-3">Mechanical Support</div>
                 <h3 class="mb-4">Molecular Weight Selection</h3>
                 <div class="p-3 bg-white rounded-3 mb-3 shadow-sm border-start border-3 border-teal">
@@ -470,7 +470,7 @@
         <p class="text-white opacity-75 lg-px-5" data-aos="fade-up" data-aos-delay="100">Contact our technical team for
             custom formulations, bulk orders, and application support.</p>
         <div data-aos="zoom-in" data-aos-delay="200" class="mt-4">
-            <a href="#contact" class="btn-quality">Request Quote</a>
+            <a href="contact.php" class="btn-quality">Request Quote</a>
         </div>
     </div>
     <div class="cta-decor-circle"></div>
