@@ -79,7 +79,7 @@
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="value-card">
                     <div class="icon-sphere">
-                        <i class="bi bi-eye"></i>
+                        <i class="bi bi-eye text-orange"></i>
                     </div>
                     <h3 class="value-title">Our Vision</h3>
                     <p class="value-text">The vision is to become a trusted innovation partner for global pharma, device

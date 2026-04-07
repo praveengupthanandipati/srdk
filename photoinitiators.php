@@ -81,7 +81,7 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-start p-3 bg-white rounded-3 shadow-sm mb-3 border-start border-3 border-teal">
-                            <div class="me-3 text-teal"><i class="bi bi-brightened fs-4"></i></div>
+                            <div class="me-3 text-teal"><i class="bi bi-sun fs-4"></i></div>
                             <div>
                                 <h6 class="fw-bold mb-1">Visible Light Activation</h6>
                                 <p class="small text-muted mb-0">405 nm blue light. Less phototoxic than UV, penetrates deeper.</p>
